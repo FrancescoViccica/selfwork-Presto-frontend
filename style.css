@@ -1,0 +1,85 @@
+*{
+     font-family: "Pirata One", system-ui
+}
+
+body{
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+h1,h2,h3,h4,.h1,.h2,.h3,.h4{
+    font-family: "ONE PIECE";
+}
+
+:root{
+    --red: rgb(215, 0, 0);
+    --sand: rgb(175, 101, 40);
+    --lightblue: rgb(96, 191, 245);
+    --blue:rgb(46, 99, 164);
+    --black:rgb(25,25,25);
+
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+.bg-sand{
+    background-color: var(--sand);
+}
+.bg-light{
+    background-color: var(--lightblue);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-black{
+    background-color: var(--black)!important;
+}
+.text-black{
+    color: var(--black);
+}
+.text-sand{
+    color: var(--sand);
+}
+.text-red{
+    color: var(--red);
+}
+.text-light{
+    color: var(--lightblue);
+}
+.text-blue{
+    color: var(--blue);
+}
+
+.navbar{
+    height: 70px;
+    transition: 0.5s;
+
+}
+.nav-link{
+    color: var(--sand);
+    font-size: 25px;
+    /* font-weight: 900; */
+}
+
+.nav-link:hover{
+    color: white !important;
+    text-shadow: 2px 2px 5px var(--red), -2px -2px 5px var(--red);
+}
+
+
+.logo{
+    height: 50px;
+}
+
+.logo-2{
+    width: 100px;
+}
+
+.box{
+    height: 4000px;
+}
+
+@media screen and (max-width: 600px){
+    
+}

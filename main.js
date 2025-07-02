@@ -136,10 +136,11 @@ stars.forEach((star, index)=>{
 // SWIPER
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-    spaceBetween: 30,
-      effect: "fade",
-      loop:true,
-
+    effect: "flip",
+    grabCursor: true,
+    loop: true,
+    autoplay: {
+        delay: 2500,},
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',

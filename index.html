@@ -6,6 +6,11 @@
     <title>Selfwork Presto</title>
     
     
+    <!-- Swiper -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- One piece Font -->
     <link href="https://db.onlinewebfonts.com/c/82848488b73a87d72f2436c02b9ab608?family=ONE+PIECE" rel="stylesheet">
     
@@ -22,10 +27,10 @@
 <body>
     
     <!-- NAVBAR -->
-     <nav id="navbar" class="navbar navbar-expand-lg bg-black fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-black fixed-top">
         <div id="collapse" class="container-fluid ">
             <a class="navbar-brand" href="#">
-                <img src="./media/logoOnepiece.png" alt="Immagine logo" class="logo">
+                <img src="./media/logoOnepiece.png" alt="Immagine logo" class="logo logo-bis">
             </a>
             
             <img id="strawHat" src="./media/cappelloLogo.png" class="img-fluid logo-2 d-md-none" alt="Immagine cappello" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -43,23 +48,142 @@
                     </li>
                     
                 </ul>
-
+                
                 
                 <div class="logo"></div>
                 
             </div>
         </div>
     </nav>
-     <!-- FINE NAVBAR -->
+    <!-- FINE NAVBAR -->
+    
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row vh-100 align-items-center header">
+            <div class="col-12">
+                <h1 class="display-1 text-center text-light"> Presto.it </h1>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-custom">Click Here</button>
+                    <button class="btn btn-custom">Click Here</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- FINE HEADER -->
+    
+    <!-- POSITIONED -->
+    <section class="container positioned">
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-4 bg-yellow d-flex flex-column align-items-center col-custom">
+                <img src="./media/jroger-marine.png" alt="logo marine" class="logo-3">
+                <h3 class="my-3">Marine</h3>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, distinctio consectetur harum excepturi nobis eveniet, consequuntur alias vitae id at porro laborum illo laboriosam molestias dicta impedit qui nesciunt dolor?
+                </p>
+            </div>
+            
+            <div class="col-10 col-md-4 bg-yellow d-flex flex-column align-items-center col-custom ">
+                <img src="./media/jroger-govmondiale.png" alt="logo governo mondiale" class="logo-3">
+                <h3 class="my-3">Governo Mondiale</h3>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, distinctio consectetur harum excepturi nobis eveniet, consequuntur alias vitae id at porro laborum illo laboriosam molestias dicta impedit qui nesciunt dolor?
+                </p>
+            </div>
+            
+            <div class="col-10 col-md-4 bg-yellow d-flex flex-column align-items-center col-custom">
+                <img src="./media/jroger-rebels.png" alt="logo ribelli" class="logo-3">
+                <h3 class="my-3">Ribelli</h3>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, distinctio consectetur harum excepturi nobis eveniet, consequuntur alias vitae id at porro laborum illo laboriosam molestias dicta impedit qui nesciunt dolor?
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- FINE POSITIONED -->
+    
+    <!-- NUMERI INCREMENTALI -->
+    <section class="container">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col-12 col-md-6  ">
+                <img src="./media/Doflamingo.jpg" alt="Immagine Doflamingo" class="img-fluid doffy">
+            </div>
+            <div class="col-12 col-md-6 text-sand">
+                <h3 class="text-center mt-3">Un po' di numeri...</h3>
+                
+                <p class="text-center custom-p"> <span id="firstNumber" class="number text-center">0</span>+  Volumi</p>
+                <p class="text-center custom-p"> <span id="secondNumber" class="number">0</span>+ Puntate</p>
+                <p class="text-center custom-p"> <span id="thirdNumber" class="number">0</span>+ KK Copie Vendute</p>
+            </div>
+            
+        </div>
+    </section>
+    <!-- FINE NUMERI INCREMENTALI -->
+    
+    
+    <!-- RECENZIONI -->
+    
+    <!-- FINE RECENZIONI -->
+    
+    <section class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <!-- <div class="swiper-slide">
+                            <div class="card-review">
+                                <p class="h2 text-center">Matteo</p>
+                                <p class="lead text-center">sito annunci</p>
+                                <div class="d-flex justify-content-center">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
 
-         <h1>BUONGIORNO A TUTTI</h1>
-     
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde aperiam consequatur quidem at, exercitationem hic rerum id sint enim eaque quis nobis atque omnis alias dolor nemo iste aliquam.</p>
-<div class="box"></div>    
+
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                    
+                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    
+    <footer class="container-fluid bg-sand d-flex justify-content-around align-items-center mt-5">
+        <div class="row">
+            <div class="col-12 col-md-4">social</div>
+            <div class="col-12 col-md-4">recapiti</div>
+            <div class="col-12 col-md-4"> logo </div>
+        </div>
+    </footer>
+    <!-- FINE FOOTER -->
     
     
+    
+    
+    
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Fontawesom -->
+    <script src="https://kit.fontawesome.com/c3c57cef9c.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
     <!-- Javascript -->
     <script src="./main.js"></script>
     

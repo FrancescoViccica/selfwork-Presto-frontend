@@ -3,8 +3,8 @@
 }
 
 body{
-    background-color: var(--blue);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--sand);
 }
 
 h1,h2,h3,h4,.h1,.h2,.h3,.h4{
@@ -15,7 +15,6 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     --red: rgb(215, 0, 0);
     --sand: rgb(175, 101, 40);
     --lightblue: rgb(96, 191, 245);
-    --blue:rgb(46, 99, 164);
     --black:rgb(25,25,25);
 
 }
@@ -29,9 +28,7 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
 .bg-light{
     background-color: var(--lightblue);
 }
-.bg-blue{
-    background-color: var(--blue);
-}
+
 .bg-black{
     background-color: var(--black)!important;
 }
@@ -45,14 +42,15 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     color: var(--red);
 }
 .text-light{
-    color: var(--lightblue);
+    color: var(--lightblue)!important;
 }
-.text-blue{
-    color: var(--blue);
-}
+
+
+/* NAVBAR */
 
 .navbar{
     height: 70px;
+    width: 100%;
     transition: 0.5s;
 
 }
@@ -67,7 +65,6 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     text-shadow: 2px 2px 5px var(--red), -2px -2px 5px var(--red);
 }
 
-
 .logo{
     height: 50px;
 }
@@ -76,10 +73,108 @@ h1,h2,h3,h4,.h1,.h2,.h3,.h4{
     width: 100px;
 }
 
-.box{
-    height: 4000px;
+/* FINE NAVBAR */
+
+
+
+/* HEADER */
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.3)) ,url(./media/sfondoOnePiece.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.btn-custom{
+    color: var(--lightblue);
+    background-color: var(--sand);
+    border: 2px solid var(--lightblue);
+    border-radius: 50px;
+    margin: 10px 15px;
+    padding: 20px 30px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn-custom:hover{
+    color: var(--sand);
+    background-color: var(--black);
+    border: 2px solid var(--sand);
+    transform: scale(1.2);
+
+}
+
+
+/* FINE HEADER */
+
+/* POSITIONED */
+.positioned{
+    position: relative;
+    top: -100px;
+
+}
+.col-custom{
+    /* margin-top: -50px; */
+    background-color: var(--sand);
+    color: var(--lightblue);
+    border: 2px solid var(--lightblue);
+    transition: 0.5s;
+}
+.col-custom:hover{
+    background-color: var(--black);
+    color: var(--sand);
+    border: 2px solid var(--sand);
+    transform: scale(1.1);
+}
+.logo-3{
+    height: 50px;
+    margin-top: 20px;
+}
+
+
+/* FINE POSITIONED */
+
+/* NUMERI INCREMENTALI */
+
+.number{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.custom-p{
+    font-size: 40px;
+}
+
+/* FINE NUMERI INCREMENTALI */
+
+/* SLIDER */
+.swiper{
+    height: 600px;
+}
+.card-review{
+    height: 200px;
+    width: 500px;
+    border: 2px solid var(--sand);
+    border-radius: 20px;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* FINE SLIDER */
+
+
+footer{
+    height: 100px;
+    color: black;
+    
+}
 @media screen and (max-width: 600px){
+    
+    .nav-link{
+        text-align: center;
+    }
+    
     
 }
